@@ -1,0 +1,195 @@
+/*partie commune--------------*/
+body {
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+    width: 100vw;
+    display: flex;
+    align-items: flex-start;
+}
+
+
+
+/*partie de gauche-------------------*/
+.container__gauche {
+    height: 100vh;
+    background-image: url(./S01E06-atelier-pair-oNews-YvesCheung88/images/nicole.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding-left: 4rem;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+    justify-content: space-between;
+    width: 50vw;
+}
+
+.container__header-title {
+    font-size: 7rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.container__header-img {
+    height: 4rem;
+    width: 4rem;
+}
+
+.container__main-gauche {
+    background-color: rgb(255, 255, 255, 0.2);
+    height: 32rem;
+    padding: 1rem;
+    margin-bottom: 30rem;
+    
+}
+
+.container__main-gauche-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 1rem;
+    padding-right: 4rem;
+}
+
+.container__main-gauche-title-pricipale {
+    font-size: 6rem;
+    font-weight: bold;
+}
+
+.container__main-gauche-title-secondaire {
+    font-size: 4rem;
+    font-style: italic;
+}
+
+
+
+.container__main-gauche-text {
+    text-align: right;
+    font-size: 4rem;
+    padding-right: 4rem;
+}
+
+.container__footer-gauche-contact {
+    display: flex;
+    list-style: none;
+    justify-content: right;
+    align-items: flex-end;
+    font-size: 3rem; 
+    padding: 2rem;
+
+}
+.container__footer-gauche-contact-detail {
+    margin-right:4rem;
+}
+
+
+
+
+/*partie de droite---------------------------------*/
+.container__droite {
+    color: black;
+    width: 50vw;
+
+}
+.container__header {
+    background-color:#f9f9f9 ;
+    height: 7rem;
+    font-size: 6rem;
+    padding: 5rem;
+    margin:auto;
+    font-weight: bold;
+}
+.container__main-droite-journal {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+   
+}
+.container__main-droite-catégorie {
+    background-color:#98DC62;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 1rem;
+    display: inline;
+    border-radius: 1rem;
+}
+/*article*/
+.container__main-droite-information {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 2rem;
+
+}
+.container__main-droite-title {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.container__main-droite-nom {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.container__main-droite-date{
+    font-size: 2rem;
+    color: rgb(211,211,211);  
+    padding-left: 1rem;
+}
+.container__main-droite-text {
+    font-size: 3rem;
+    margin-bottom: 4rem;
+   
+}
+.container__main-droite-img {
+    margin-right: 3rem;
+}
+.container__main-reference {
+    color: blue;
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+.container__main-droite-article {
+    padding: 4rem;
+    border: 1px #d5d5d5 solid;
+    width: 20vw;
+}
+.container__main-droite-catégorie-team {
+    background-color: #DC5E53;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 1rem;
+    display: inline;
+    border-radius: 1rem;
+}
+.container__main-droite-catégorie-work {
+    background-color: #0766F0;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 1rem;
+    display: inline;
+    border-radius: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
