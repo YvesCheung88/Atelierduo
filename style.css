@@ -17,7 +17,7 @@ body {
     background-image: url(./S01E06-atelier-pair-oNews-YvesCheung88/images/nicole.jpg);
     background-repeat: no-repeat;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     color: white;
     padding-left: 4rem;
     padding-top: 4rem;
